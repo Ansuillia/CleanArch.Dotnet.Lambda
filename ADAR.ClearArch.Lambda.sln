@@ -5,31 +5,28 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8DEE7C79-208C-4410-8D2D-EB78BB0490DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lambda", "src\Lambda\Lambda.csproj", "{D0163875-8EBC-4D75-8D71-662FB12CAB4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lambda", "src\Lambda\Lambda.csproj", "{D0163875-8EBC-4D75-8D71-662FB12CAB4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "src\Application\Application.csproj", "{F5FD803A-1FD2-4EF5-A6AB-2479046C3A53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "src\Application\Application.csproj", "{F5FD803A-1FD2-4EF5-A6AB-2479046C3A53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra", "src\Infra\Infra.csproj", "{9AB4BF52-FABD-4C98-A873-9FDBCA096718}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infra.Data", "src\Infra\Infra.Data.csproj", "{9AB4BF52-FABD-4C98-A873-9FDBCA096718}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "src\Domain\Domain.csproj", "{6FADC290-E229-4206-9469-96C781A23C2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "src\Domain\Domain.csproj", "{6FADC290-E229-4206-9469-96C781A23C2F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{261C4167-3610-4DA4-A501-AFEA631BED66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lambda.UnitTests", "tests\Lambda.UnitTests\Lambda.UnitTests.csproj", "{EA2E44E8-F155-4F0E-86EA-D1753D278BF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lambda.UnitTests", "tests\Lambda.UnitTests\Lambda.UnitTests.csproj", "{EA2E44E8-F155-4F0E-86EA-D1753D278BF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.UnitTests", "tests\Application.UnitTests\Application.UnitTests.csproj", "{020B2A6B-508B-4561-BBB1-7F9C4FF8B60E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.UnitTests", "tests\Application.UnitTests\Application.UnitTests.csproj", "{020B2A6B-508B-4561-BBB1-7F9C4FF8B60E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra.UnitTests", "tests\Infra.UnitTests\Infra.UnitTests.csproj", "{157CFDDE-12D8-462F-A793-393B2FAE85E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infra.UnitTests", "tests\Infra.UnitTests\Infra.UnitTests.csproj", "{157CFDDE-12D8-462F-A793-393B2FAE85E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.UnitTests", "tests\Domain.UnitTests\Domain.UnitTests.csproj", "{72B0E0C9-909E-4023-A541-53E8AAF49AE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.UnitTests", "tests\Domain.UnitTests\Domain.UnitTests.csproj", "{72B0E0C9-909E-4023-A541-53E8AAF49AE3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D0163875-8EBC-4D75-8D71-662FB12CAB4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -64,6 +61,9 @@ Global
 		{72B0E0C9-909E-4023-A541-53E8AAF49AE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72B0E0C9-909E-4023-A541-53E8AAF49AE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72B0E0C9-909E-4023-A541-53E8AAF49AE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D0163875-8EBC-4D75-8D71-662FB12CAB4C} = {8DEE7C79-208C-4410-8D2D-EB78BB0490DE}
